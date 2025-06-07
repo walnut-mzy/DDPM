@@ -1,4 +1,4 @@
-# Diffusion Model for MNIST
+# DDPM
 
 A PyTorch implementation of a Diffusion Model for generating MNIST digits using a UNet architecture with optional conditional generation.
 
@@ -60,7 +60,7 @@ python train_eval.py
 python train_eval.py
 ```
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 diffusion/
@@ -112,7 +112,7 @@ epochs = 50                        # Training epochs
 learning_rate = 1e-4              # Learning rate
 ```
 
-## 🏃‍♂️ Usage Examples
+##  Usage Examples
 
 ### 1. Basic Training
 
