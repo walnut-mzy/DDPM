@@ -26,20 +26,20 @@ Pillow>=8.3.0
 1. Clone the repository:
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/walnut-mzy/DDPM.git
 cd diffusion
 ```
 
 2. Install dependencies:
 
 ```bash
-pip install torch torchvision numpy matplotlib tqdm tensorboard Pillow
+pip install -r requirements.txt
 ```
 
 3. Verify installation by running:
 
 ```bash
-python train_eval.py --help
+python train_eval.py 
 ```
 
 ## Quick Start
@@ -64,6 +64,7 @@ python train_eval.py
 
 ```
 diffusion/
+├── images                 # images folders
 ├── README.md              # This file
 ├── train_eval.py          # Main training script
 ├── diffusion.py           # Diffusion model implementation
